@@ -10,3 +10,24 @@
   margin-right: auto;
   width: 30em;
 }
+/* #c1 {
+  width: 37.5%;
+  float: left;
+  padding: 0px;
+  margin: 0px;
+}
+#c2 {
+  width: 57.5%;
+  float: right;
+  padding: 0px;
+  margin: 0px;
+} */
+/* .placeholder {
+  margin: 0px;
+} */
+.card-body {
+  padding: 0px;
+}
+.accordian-text {
+  margin: 10px;
+}
