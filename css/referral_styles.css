@@ -1,0 +1,12 @@
+.center-content {
+  text-align: center;
+}
+#googleForm {
+  text-align: center;
+}
+#desc {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30em;
+}
