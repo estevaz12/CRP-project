@@ -47,16 +47,6 @@ p {
   line-height: 1.5em;
 }
 
-.btn {
-  border-radius: 10px;
-  border: 3px solid;
-  margin-bottom: 9.3023%;
-}
-
-.btn:hover {
-  color: #008FB3;
-}
-
 .navbar {
   background-color: #00CCFF;
   font-size: 1.25em;
@@ -116,6 +106,15 @@ p {
   width: 100%;
 }
 
+#referral-btn {
+  border-radius: 10px;
+  border: 3px solid;
+  margin-bottom: 9.3023%;
+}
+
+#referral-btn:hover {
+  color: #008FB3;
+}
 
 @media (max-width: 576px) {
   footer .col-12 {
