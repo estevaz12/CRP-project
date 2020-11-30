@@ -14,12 +14,62 @@
       crossorigin="anonymous"
     />
     <link href="css/referral_styles.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
   </head>
 
   <body>
-    <div class="container-fluid">
+    <!-- Navbar with logo at top of the page. Set to be shown on medium
+    devices and up. Shrinks on small devices. -->
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark">
+      <div class="container-md">
+        <!-- CRP Logo on navbar -->
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="imgs/logos/logo2.png"
+            width="50"
+            alt="crp logo"
+            loading="lazy"
+          />
+        </a>
+        <!-- to make it collapsible on phone -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav nav-fill w-100">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="referral.html"
+                >REFERRAL<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="program.html">PROGRAM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="main" class="container-fluid">
       <row>
-        <h1 class="center-content">Referral Form</h1>
+        <h2 class="center-content">Referral Form</h2>
         <h5 id="desc">
           To apply to our program or to refer a friend, please fill out the form
           below. All information is is kept confidential.
@@ -30,8 +80,8 @@
           <div id="googleForm">
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSeXEmhmQtz5GtVOUQ6Qmm0S2X8CjeeQWd6HllRCNam2kJ8-yw/viewform?embedded=true"
-              width="640"
-              height="1265"
+              width="100%"
+              height="1500"
               frameborder="0"
               marginheight="0"
               marginwidth="0"
@@ -41,5 +91,67 @@
         </col-12>
       </row>
     </div>
+
+    <footer>
+      <div class="container-sm">
+        <div class="row">
+          <!-- contact section -->
+          <div class="col-12 col-md-3 col-lg-2">
+            <img
+              id="footer-logo"
+              src="imgs/logos/logo3.png"
+              alt="crp logo"
+              width="75"
+            />
+          </div>
+          <div class="col-12 col-md-5 col-lg-4">
+            <h3><strong>Contact Us</strong></h3>
+            <p>
+              Phone: (276) 638-0438 <br />
+              Email:
+              <a id="email" href="mailto:lismith@piedmontcsb.org"
+                >lismith@piedmontcsb.org</a
+              >
+            </p>
+          </div>
+
+          <!-- referral and social media -->
+          <div class="col-12 col-md">
+            <div class="row justify-content-end">
+              <div class="col-lg-6">
+                <a href="referral.html">
+                  <button type="button" class="btn btn-outline-light btn-lg">
+                    REFERRAL FORM
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div class="row justify-content-end">
+              <div class="col-lg-6">
+                <a class="social-media-logo" href="#">
+                  <img src="imgs/fb-logo.png" alt="facebook link" />
+                </a>
+                <a class="social-media-logo" href="#">
+                  <img src="imgs/instagram-logo.svg" alt="instagram link" />
+                </a>
+                <a class="social-media-logo" id="no-margin" href="#">
+                  <img src="imgs/twitter-logo.svg" alt="twitter link" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright section -->
+      <div class="row" id="copyright">
+        <div class="col-12">
+          <p>
+            &copy; Copyright 2020 - Piedmont Community Recovery Program - All
+            rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

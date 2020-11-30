@@ -1,5 +1,18 @@
+h2 {
+  font-family: "Sansita", sans-serif;
+  font-size: 4rem;
+  /* 500% or 15vh or 15 vw  
+              https://css-tricks.com/almanac/properties/f/font-size/ 
+          */
+  padding-top: 4px;
+  margin: 0px;
+  text-align: center;
+}
 .center-content {
   text-align: center;
+}
+#main {
+  margin-top: 100px;
 }
 #googleForm {
   text-align: center;
@@ -8,7 +21,7 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 30em;
+  width: 50%;
 }
 /* #c1 {
   width: 37.5%;
