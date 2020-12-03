@@ -47,6 +47,11 @@ p {
   line-height: 1.5em;
 }
 
+.breadcrumb {
+  width: 100%;
+  margin: 0;
+}
+
 .navbar {
   background-color: #00CCFF;
   font-size: 1.25em;
