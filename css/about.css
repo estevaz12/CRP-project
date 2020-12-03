@@ -2,7 +2,7 @@
   font-size: 1.3em;
   list-style: circle;
   text-align: left;
-  margin-left: 20%;
+  margin-left: 10%;
 }
 
 #ResourceDesc{
@@ -38,7 +38,7 @@
 
 .card-back{
   background-color:#2980b9;
-  
+
   position: absolute;
   text-align: center;
 }
@@ -91,7 +91,7 @@
   #topRow{
     width: 90%;
     margin-left: 23%;
-    
+
   }
 
 
@@ -110,7 +110,14 @@
     left: 0%;
   }
 
+  #Resources {
+    margin-left: 5%;
+  }
 
 }
 
-
+@media (min-width: 769px) {
+  #Resources {
+    margin-left: 20%;
+  }
+}
