@@ -13,6 +13,7 @@ h1 {
   font-family: 'Raleway', sans-serif;
   font-size: 3.5em;
   margin: 4.5045% 0;
+  color: #006680;
 }
 
 header img {
@@ -50,10 +51,27 @@ p {
 .breadcrumb {
   width: 100%;
   margin: 0;
+  background-color: #006680
+}
+
+.breadcrumb-item.active, .breadcrumb-item.active::before {
+  color: #fff;
+}
+
+.breadcrumb-item a {
+  color: #4DDBFF;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.container-fluid, #main-content {
+  text-align: center;
 }
 
 .navbar {
-  background-color: #00CCFF;
+  background-color: #00beed;
   font-size: 1.25em;
   padding-top: 0;
   padding-bottom: 0;
@@ -64,8 +82,22 @@ p {
   height: auto;
 }
 
+.navbar-dark .navbar-toggler {
+  border: 0;
+}
+
 .nav-link:hover {
   text-decoration: underline;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.row h1 {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .social-media-logo img {
@@ -77,9 +109,8 @@ p {
   margin-right: 10.6666%;
 }
 
-#main-content {
-  text-align: center;
-  margin-bottom: 9%;
+#breadcrumb-col {
+  background-color: #006680;
 }
 
 #copyright {
@@ -109,6 +140,12 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
+  color: #fff;
+}
+
+#main-content {
+  text-align: center;
+  margin-bottom: 9%;
 }
 
 #referral-btn {
