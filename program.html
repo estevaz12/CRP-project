@@ -72,12 +72,14 @@
     <!-- Header image after the navbar -->
     <header>
       <div class="row no-gutters">
-        <img src="imgs/program-header.jpg" alt="smiling young man">
+        <img src="imgs/program-header.jpg" alt="smiling young man" />
         <div class="col-12" id="breadcrumb-col">
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Program</li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Program
+              </li>
             </ol>
           </nav>
         </div>
@@ -88,8 +90,8 @@
       <row>
         <h1 class="center-content">Programs</h1>
         <div class="row">
-          <div class="col-4">
-            <div class="card" style="width: 18rem">
+          <div class="col-md-6 col-sm-12">
+            <div class="card mx-auto" id="criteria">
               <div class="card-body">
                 <h5 class="card-title">Criteria</h5>
                 <p class="card-text">
@@ -101,8 +103,8 @@
               </div>
             </div>
           </div>
-          <div class="col-8">
-            <div class="card" style="width: 36rem">
+          <div class="col-md-6 col-sm-12">
+            <div class="card mx-auto" id="services">
               <div class="card-body">
                 <h5 class="card-title">Services</h5>
                 <ul>
@@ -120,6 +122,7 @@
             </div>
           </div>
         </div>
+
         <h1 class="center-content">Resources</h1>
         <div class="accordion" id="accordionExample">
           <div class="card">
@@ -146,14 +149,14 @@
             >
               <div class="card-body">
                 <div class="row">
-                  <div class="col-sm-12 col-md-5">
+                  <div class="col-sm-12 col-md-12 col-lg-5">
                     <a href="https://via.placeholder.com"
                       ><img
                         class="placeholder"
-                        src="https://via.placeholder.com/400x200"
+                        src="https://via.placeholder.com/400x400"
                     /></a>
                   </div>
-                  <div class="col-sm-12 col-md-7">
+                  <div class="col-sm-12 col-md-12 col-lg-7">
                     <p class="accordian-text">
                       The Landing and Serenity Cottage are safe and supportive
                       environments for the participants of the Community
@@ -192,12 +195,25 @@
               data-parent="#accordionExample"
             >
               <div class="card-body">
-                Through OTP, participants will receive assistance with hands-on
-                training in janitorial services, job development, and job
-                coaching that can lead to them obtaining valuable skills,
-                positive work habits, and effective job retention abilities that
-                can prepare them to be an asset in any competitive work
-                environment.
+                <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-5">
+                    <a href="https://via.placeholder.com"
+                      ><img
+                        class="placeholder"
+                        src="https://via.placeholder.com/400x400"
+                    /></a>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-7">
+                    <p class="accordian-text">
+                      Through OTP, participants will receive assistance with
+                      hands-on training in janitorial services, job development,
+                      and job coaching that can lead to them obtaining valuable
+                      skills, positive work habits, and effective job retention
+                      abilities that can prepare them to be an asset in any
+                      competitive work environment.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -223,10 +239,24 @@
               data-parent="#accordionExample"
             >
               <div class="card-body">
-                Individual case management services where the focus is on
-                assisting individuals obtain/maintain sobriety and linkage to
-                employment opportunities by collaborating with local workforce
-                development programs, human services programs, and employers.
+                <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-5">
+                    <a href="https://via.placeholder.com"
+                      ><img
+                        class="placeholder"
+                        src="https://via.placeholder.com/400x400"
+                    /></a>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-7">
+                    <p class="accordian-text">
+                      Individual case management services where the focus is on
+                      assisting individuals obtain/maintain sobriety and linkage
+                      to employment opportunities by collaborating with local
+                      workforce development programs, human services programs,
+                      and employers.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -237,9 +267,9 @@
                   class="btn btn-link btn-block text-center collapsed"
                   type="button"
                   data-toggle="collapse"
-                  data-target="#collapseThree"
+                  data-target="#collapseFour"
                   aria-expanded="false"
-                  aria-controls="collapseThree"
+                  aria-controls="collapseFour"
                 >
                   Transporation Assistance
                 </button>
@@ -252,14 +282,74 @@
               data-parent="#accordionExample"
             >
               <div class="card-body">
-                Provide safe and reliable transportation to employment-related
-                appointments and training.
+                <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-5">
+                    <a href="https://via.placeholder.com"
+                      ><img
+                        class="placeholder"
+                        src="https://via.placeholder.com/400x400"
+                    /></a>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-7">
+                    <p class="accordian-text">
+                      Provide safe and reliable transportation to employment-related
+                      appointments and training.
+                    </p>
+                  </div>
+                </div>
+              </div>
               </div>
             </div>
           </div>
         </div>
 
-        <h1 class="center-content">Statistics</h1>
+        <div class="container" id="statistics">
+          <h1 class="center-content">Statistics</h1>
+
+          <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">Initial</th>
+                <th scope="col">6 Months</th>
+                <th scope="col">12 Months</th>
+                <th scope="col">Discharged</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Unemployed</th>
+                <td>70.3%</td>
+                <td>35.8%</td>
+                <td>38.2%</td>
+                <td>11.8%</td>
+              </tr>
+              <tr>
+                <th scope="row">Job Searching</th>
+                <td>7.3%</td>
+                <td>7.4%</td>
+                <td>12.7%</td>
+                <td>11.8%</td>
+              </tr>
+              <tr>
+                <th scope="row">Interviewing</th>
+                <td>11.3%</td>
+                <td>6.3%</td>
+                <td>0%</td>
+                <td>0%</td>
+              </tr>
+              <tr>
+                <th scope="row">Employed</th>
+                <td>10.8%</td>
+                <td>48.4%</td>
+                <td>45.5%</td>
+                <td>0%</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+        </div>
       </row>
     </div>
 
@@ -268,13 +358,21 @@
         <div class="row">
           <!-- contact section -->
           <div class="col-12 col-md-3 col-lg-2">
-            <img id="footer-logo" src="imgs/logos/logo3.png" alt="crp logo" width="75">
+            <img
+              id="footer-logo"
+              src="imgs/logos/logo3.png"
+              alt="crp logo"
+              width="75"
+            />
           </div>
           <div class="col-12 col-md-5 col-lg-4">
             <h3><strong>Contact Us</strong></h3>
             <p>
-              Phone: (276) 638-0438 <br>
-              Email: <a id="email" href="mailto:lismith@piedmontcsb.org">lismith@piedmontcsb.org</a>
+              Phone: (276) 638-0438 <br />
+              Email:
+              <a id="email" href="mailto:lismith@piedmontcsb.org"
+                >lismith@piedmontcsb.org</a
+              >
             </p>
           </div>
 
@@ -283,20 +381,26 @@
             <div class="row justify-content-end">
               <div class="col-lg-6">
                 <a href="referral.html">
-                  <button id="referral-btn" type="button" class="btn btn-outline-light btn-lg">REFERRAL FORM</button>
+                  <button
+                    id="referral-btn"
+                    type="button"
+                    class="btn btn-outline-light btn-lg"
+                  >
+                    REFERRAL FORM
+                  </button>
                 </a>
               </div>
             </div>
             <div class="row justify-content-end">
               <div class="col-lg-6">
                 <a class="social-media-logo" href="#">
-                  <img src="imgs/fb-logo.png" alt="facebook link">
+                  <img src="imgs/fb-logo.png" alt="facebook link" />
                 </a>
                 <a class="social-media-logo" href="#">
-                  <img src="imgs/instagram-logo.svg" alt="instagram link">
+                  <img src="imgs/instagram-logo.svg" alt="instagram link" />
                 </a>
                 <a class="social-media-logo" id="no-margin" href="#">
-                  <img src="imgs/twitter-logo.svg" alt="twitter link">
+                  <img src="imgs/twitter-logo.svg" alt="twitter link" />
                 </a>
               </div>
             </div>
@@ -307,13 +411,24 @@
       <!-- Copyright section -->
       <div class="row" id="copyright">
         <div class="col-12">
-          <p>&copy; Copyright 2020 - Piedmont Community Recovery Program - All rights reserved.</p>
+          <p>
+            &copy; Copyright 2020 - Piedmont Community Recovery Program - All
+            rights reserved.
+          </p>
         </div>
       </div>
     </footer>
 
     <!-- jQuery and Bootstrap Bundle -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

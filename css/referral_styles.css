@@ -28,6 +28,12 @@ h2 {
   margin-right: auto; */
   /* width: 50%; */
 }
+#statistics {
+  margin-bottom: 100px;
+}
+.placeholder {
+  margin: 10px;
+}
 
 /* #c1 {
   width: 37.5%;
@@ -49,4 +55,39 @@ h2 {
 }
 .accordian-text {
   margin: 10px;
+  padding-left: 20px;
+}
+#services {
+  width: 36rem;
+  margin: 10px;
+  float: left;
+}
+#criteria {
+  width: 18rem;
+  margin: 10px;
+  float: right;
+}
+@media (max-width: 1200px) {
+  #services {
+    width: 24rem;
+    margin: 10px;
+  }
+  #criteria {
+    width: 18rem;
+    margin: 10px;
+  }
+}
+@media (max-width: 768px) {
+  #services {
+    width: 20rem;
+    float: none;
+  }
+  #criteria {
+    width: 20rem;
+    float: none;
+  }
+  .accordian-text {
+    margin: 10px;
+    padding-left: 0px;
+  }
 }
