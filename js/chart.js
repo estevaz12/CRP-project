@@ -7,7 +7,7 @@ function drawCh(num) {
     ["Unemployed", 21],
     ["Job Searching", 7],
     ["Interviewing", 2],
-    ["Employed TV", 25],
+    ["Employed", 25],
   ]);
   var options = { title: "Participants After 12 Months" };
   switch (num) {
@@ -17,7 +17,7 @@ function drawCh(num) {
         ["Unemployed", 183],
         ["Job Searching", 19],
         ["Interviewing", 30],
-        ["Employed TV", 28],
+        ["Employed", 28],
       ]);
       options.title = "Participants Initially";
       break;
@@ -27,7 +27,7 @@ function drawCh(num) {
         ["Unemployed", 34],
         ["Job Searching", 7],
         ["Interviewing", 8],
-        ["Employed TV", 46],
+        ["Employed", 46],
       ]);
       options.title = "Participants After 6 Months";
       break;
@@ -37,7 +37,7 @@ function drawCh(num) {
         ["Unemployed", 21],
         ["Job Searching", 7],
         ["Interviewing", 2],
-        ["Employed TV", 25],
+        ["Employed", 25],
       ]);
       options.title = "Participants After 12 Months";
       break;
@@ -47,7 +47,7 @@ function drawCh(num) {
         ["Unemployed", 2],
         ["Job Searching", 2],
         ["Interviewing", 13],
-        ["Employed TV", 0],
+        ["Employed", 0],
       ]);
       options.title = "Participants After Discharge";
       break;
@@ -66,7 +66,7 @@ function drawChart() {
     ["Unemployed", 21],
     ["Job Searching", 7],
     ["Interviewing", 2],
-    ["Employed TV", 25],
+    ["Employed", 25],
   ]);
   var options = { title: "Participants After 12 Months" };
 

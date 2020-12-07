@@ -1,0 +1,110 @@
+ul {
+  list-style: circle;
+}
+
+.accordion {
+  border: 0;
+}
+
+.accordion-img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1px;
+}
+
+.accordion-text {
+  margin-top: 1rem;
+  padding: 0 1.25rem;
+}
+
+.a-btn {
+  font-family: 'Montserrat', 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.a-btn:hover {
+  color: #fff;
+}
+
+.card {
+  padding: 10px;
+}
+
+.a-card {
+  padding: 0;
+  border-radius: 0;
+  border: 0;
+}
+
+.card p, .card ul {
+  font-size: 1.25rem;
+}
+
+.card-header {
+  background-color: #006680;
+}
+
+.card-header:not(#headingOne) {
+  border-top: 1px solid rgba(0,0,0,0.4);
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-body {
+  padding: 0px;
+}
+
+.center-content {
+  text-align: center;
+}
+
+#accordionExample {
+  margin-bottom: 4.5%;
+}
+
+#criteria, #services {
+  margin-bottom: 10px;
+}
+
+#desc {
+  text-align: center;
+}
+
+#googleForm {
+  text-align: center;
+}
+
+#otp-logo {
+  max-width: 50%;
+  height: auto;
+}
+
+#piechart {
+  height: 500px;
+}
+
+#program-content {
+  margin-bottom: 4.5%;
+}
+
+#resources-content {
+  background-color: #4DDBFF;
+  text-align: left;
+}
+
+#statistics {
+  margin-bottom: 4.5%;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+
+  .accordian-text {
+    margin: 10px;
+    padding-left: 0px;
+  }
+}

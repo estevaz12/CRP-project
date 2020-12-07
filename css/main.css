@@ -158,6 +158,10 @@ p {
   color: #008FB3;
 }
 
+#referral-heading {
+  margin-top: 100px;
+}
+
 @media (max-width: 576px) {
   footer .col-12 {
     text-align: center;
