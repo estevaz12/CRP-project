@@ -1,0 +1,41 @@
+#impact-content {
+  background-color: #4DDBFF;
+  padding: 3% 0;
+}
+
+#learn-more {
+  font-size: 1.25rem;
+}
+
+#main-content {
+  margin-bottom: 4.5%;
+}
+
+#otp-content {
+  margin-top: 4.5%;
+  margin-bottom: 9%;
+}
+
+#otp-content img {
+  max-width: 60%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  #otp-content img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  #otp-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+  }
+
+  #otp-content {
+    text-align: center;
+  }
+}
